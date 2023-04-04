@@ -59,7 +59,9 @@ document.getElementById("btn").onclick = function () {
                 
                 fetch('https://translate-plus.p.rapidapi.com/translate', options)
                     .then(response => response.json())
-                    .then(response => console.log(response))
+                .then(response => {
+                    document.getElementById("res").innerHTML = response.translations.translation
+                })
                     .catch(err => console.error(err));
 
 
