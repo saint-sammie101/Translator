@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+background-color: black;
+}
+
+.translator{
+    width: 60vw;
+    margin: auto;
+    background-color: lavender;
+    padding: 5rem ;
+    border-radius: 15px;
+}
+.translator textarea{
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 10px;
+}
+.translator textarea:focus{
+    outline: 0;
+}
+.translator button{
+    background-color: blue;
+    color: white;
+    padding: 0.4rem;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+    border: 0;
+
+}
+
+select{
+    display: block;
+    padding: 0.4rem;
+    margin: 1rem;
+    border: 0;
+
+}
+select:focus{
+    outline: 0;
+}
+.head{
+    text-align: center;
+    font-size: 100px;
+    color: white;
+}
+
+.head2{
+    color: red;
+}
